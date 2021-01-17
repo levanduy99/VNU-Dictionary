@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PronunciationActivity"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vowel"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Monophthongs"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/soundI"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/blue_button"
+                    android:text="ɪ"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#07850C" />
+                <Button
+                    android:text="ʊ"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/blue_button"
+                    app:backgroundTint="#07850C"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <Button
+                    android:text="ʌ"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    app:backgroundTint="#07850C"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/blue_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:text="iː"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#07850C"
+                    android:background="@drawable/blue_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <Button
+                    android:text="uː"
+                    app:backgroundTint="#07850C"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/blue_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <Button
+                    android:text="ɑː"
+                    app:backgroundTint="#07850C"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/blue_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:text="ɒ"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#07850C"
+                    android:background="@drawable/blue_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <Button
+                    android:text="ə"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    app:backgroundTint="#07850C"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/blue_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <Button
+                    android:text="e"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    app:backgroundTint="#07850C"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/blue_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:textAllCaps="false"
+                    android:text="ɔː"
+                    app:backgroundTint="#07850C"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/blue_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <Button
+                    android:textAllCaps="false"
+                    android:text="ɜː"
+                    app:backgroundTint="#07850C"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/blue_button"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <Button
+                    android:textAllCaps="false"
+                    android:text="æ"
+                    app:backgroundTint="#07850C"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/blue_button"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="10dp"
+            android:layout_gravity="right"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Dipthongs"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:textAllCaps="false"
+                    android:text="eɪ"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/orange_button"
+                    android:layout_width="50dp"
+                    app:backgroundTint="#F49406"
+                    android:layout_height="50dp" />
+                <Button
+                    app:backgroundTint="#F49406"
+                    android:textAllCaps="false"
+                    android:text="aɪ"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/orange_button"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    app:backgroundTint="#F49406"
+                    android:textAllCaps="false"
+                    android:text="ɪə"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/orange_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <Button
+                    app:backgroundTint="#F49406"
+                    android:textAllCaps="false"
+                    android:text="eə"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/orange_button"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    app:backgroundTint="#F49406"
+                    android:textAllCaps="false"
+                    android:text="ɔɪ"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/orange_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <Button
+                    app:backgroundTint="#F49406"
+                    android:textAllCaps="false"
+                    android:text="aʊ"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/orange_button"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    app:backgroundTint="#F49406"
+                    android:textAllCaps="false"
+                    android:text="ʊə"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/orange_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <Button
+                    app:backgroundTint="#F49406"
+                    android:textAllCaps="false"
+                    android:text="əʊ"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/orange_button"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consonants"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="p"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="t"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="tʃ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="k"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="f"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="θ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="b"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="d"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="dʒ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="ɡ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="v"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="ð"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="s"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="ʃ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="ŋ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="m"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/grey_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="l"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="w"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="z"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="ʒ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="n"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="h"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/grey_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="r"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                app:backgroundTint="#676A67"
+                android:textAllCaps="false"
+                android:text="j"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/grey_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

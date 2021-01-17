@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "178960789996",
+    "firebase_url": "https://vnuept176.firebaseio.com",
+    "project_id": "vnuept176",
+    "storage_bucket": "vnuept176.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178960789996:android:888ff101744703e8e9d0c9",
+        "android_client_info": {
+          "package_name": "com.example.vnuepttest176"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178960789996-9ddv3kaoec2vapng97ph0s2em3kkkaqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHsz0Tg4SYc1anstLv3ffB4F8BguqEEWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178960789996-9ddv3kaoec2vapng97ph0s2em3kkkaqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
